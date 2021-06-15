@@ -50,6 +50,7 @@ class Contact(View):
                             description=message)
         form.register()
 
+
         email = EmailMessage(
             'New Message Send From Portfolio',
             'Message from : '+name+

@@ -139,6 +139,13 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
 
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': "dny6l7x8j",
+    'API_KEY':'268341291776779',
+    'API_SECRET':'nJHq7NKRpFgLK4arXkHF_ckD080',
+}
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+
 MEDIA_URL = "/images/project/"
 MEDIA_ROOT = os.path.join(BASE_DIR)
 

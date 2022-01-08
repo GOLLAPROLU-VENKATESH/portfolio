@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: gollaprolu-venkatesh-protfolio.herokuapp.com
+Token: 6f59761376cbb13f88a2d4834baae0cf2e46e82ccddbd3545e31738e98e3c8c2
